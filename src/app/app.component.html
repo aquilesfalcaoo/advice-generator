@@ -1,15 +1,15 @@
 <main class="container">
   <article class="card">
     <div class="content-text">
-      <span>Advice #01</span>
-      <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit."</p>
+      <span>Advice #{{ advices.slip.id }}</span>
+      <p>{{ advices.slip.advice }}</p>
       <figure class="pattern-divider">
         <img
           src="../assets/pattern-divider-desktop.svg"
           alt="pattern divider"
         />
       </figure>
-      <figure class="icon-dice">
+      <figure class="icon-dice" (click)="rollDice()">
         <img src="../assets/icon-dice.svg" alt="icon dice" />
       </figure>
     </div>

@@ -59,3 +59,9 @@
   left: 0;
   cursor: pointer;
 }
+
+@media (max-width: 575px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
