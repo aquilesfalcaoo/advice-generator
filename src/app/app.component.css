@@ -1,0 +1,61 @@
+.container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background: var(--dark-grayish-blue);
+  padding: 1.5rem 0;
+  border-radius: 1rem;
+  text-align: center;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-text {
+  padding: 0 1rem;
+  position: relative;
+}
+
+.content-text span {
+  color: var(--neon-gray);
+  font-family: "Manrope-Light";
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.content-text p {
+  font-family: "Manrope-SemiBold";
+  color: var(--light-cyan);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pattern-divider {
+  margin: 1.5rem 0;
+}
+
+.pattern-divider img {
+  width: 100%;
+}
+
+.icon-dice {
+  background: var(--neon-gray);
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 60px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+}

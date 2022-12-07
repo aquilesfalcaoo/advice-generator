@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+/* COLORS */
+
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-gray: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+/* FONT */
+
+@font-face {
+  font-family: "Manrope-Light";
+  src: url("src/assets/fonts/Manrope-Light.ttf");
+}
+
+@font-face {
+  font-family: "Manrope-SemiBold";
+  src: url("src/assets/fonts/Manrope-SemiBold.ttf");
+}
+
+/* BACKGROUND */
+
+.bg-dark {
+  background: var(--dark-blue);
+}
