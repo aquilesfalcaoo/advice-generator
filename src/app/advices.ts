@@ -1,4 +1,6 @@
 export interface Advices {
-  id: number;
-  advice: string;
+  slip: {
+    id: number;
+    advice: string;
+  };
 }
